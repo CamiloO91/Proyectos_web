@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title></title>
+  </head>
+  <body>
+
+    <header>
+      <img src="img/logo.svg" alt="Camilo Aristizabal" width="9%" title="Camilo Aristizabal">
+      <h1>HOJA DE VIDA</h1>
+      <h2>Camilo Aristizabal</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educacion</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>Educación</h2>
+      <table border="1", cellpadding="10", cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+            <th>Título</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1995</td>
+            <td>Colegio Campestre San Juan de la Loma</td>
+            <td>Tuluá-Valle del Cauca</td>
+            <td>Si</td>
+            <td>Bachiller</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>Universidad Autonoma de Occidente</td>
+            <td>Cali-Valle del Cauca</td>
+            <td>si</td>
+            <td>Ingeniero Multimedia</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>Next U</td>
+            <td>Web</td>
+            <td>En progreso</td>
+            <td>Certificado de <br>Desarrollador web</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Agregar Estudios</h2>
+      <form class="" action="educacion.html" method="post">
+        <p>
+          <label for="Año">Año: </label>
+          <input type="number" name="años" placeholder="Ej: 2010" id="Año"><br>
+        </p>
+        <p>
+          <label for="inst">Institucion: </label>
+          <input type="text" name="usuario" placeholder=" Ej: Universidad..." id="inst" autocomplete autofocus required><br>
+        </p>
+        <p>
+          <label for="lugar">Lugar:</label><br>
+          <textarea name="area" rows="4" cols="24" id="lugar"></textarea>
+        </p>
+        <p>
+          <label for="culmi">¿Culminó? </label>
+          <input type="radio" name="culmino" value="si" id="culmi">Si
+          <input type="radio" name="culmino" value="no" id="culmi" checked>No
+        </p>
+        <input type="submit" name="enviar" value="Enviar">
+        <p></p>
+      </form>
+    </section>
+
+    <footer>
+      <tfoot>@Derechos Reservados</tfoot>
+    <ul>
+      <li><strong>email: </strong><a href="mailto:aristic66@gmail.com">aristic66@gmail.com</a></li>
+      <li><strong>Telefono: </strong>3182851072 </li>
+      <li><strong>facebook: </strong>CamiloOctavioAristizabal</li>
+    </ul>
+    </footer>
+
+  </body>
+</html>
